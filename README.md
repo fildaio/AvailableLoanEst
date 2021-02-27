@@ -18,7 +18,9 @@
 
 ``` js
 import FilDaLoanInfo from 'filda-js-sdk'
+or
+const FilDaLoanInfo = require('filda-js-sdk')
 
 // Get an address's the loan usage rate and the remaining available borrow balance 
-const { usageRate, remainingBorrowBalance } = new FilDaLoanInfo().availableLoanEstimation('0xADDRESS')
+const { usageRate, remainingBorrowBalance } = await new FilDaLoanInfo().availableLoanEstimation('0xADDRESS')
 ```
