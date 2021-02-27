@@ -138,6 +138,7 @@ class FilDaLoanInfo {
 
       this.provider = new ethers.providers.Web3Provider(this.web3.currentProvider)
     }
+    ethers.utils.Logger.setLogLevel(ethers.utils.Logger.levels.ERROR)
   }
 
 }
