@@ -14,7 +14,7 @@
 
 `yarn add filda-js-sdk` or `npm install filda-js-sdk --save`
 
-### Usage sample
+### Example
 
 ``` js
 import FilDaLoanInfo from 'filda-js-sdk'

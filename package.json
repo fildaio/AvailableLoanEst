@@ -1,6 +1,6 @@
 {
   "name": "filda-js-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "FilDA JavaScript SDK",
   "main": "build/index.js",
   "license": "MIT",
