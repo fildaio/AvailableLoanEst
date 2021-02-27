@@ -1,0 +1,13 @@
+{
+  "allowSyntheticDefaultImports": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "outDir": "build"
+  }
+}
