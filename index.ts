@@ -14,7 +14,7 @@ type AvailableLoanEstimation = {
   remainingBorrowBalance: string
 }
 
-export default class FilDaLoanInfo {
+class FilDaLoanInfo {
   private provider: ethers.providers.JsonRpcProvider = new ethers.providers.JsonRpcProvider('https://heconode.ifoobar.com')
   private web3 = new Web3(new Web3.providers.HttpProvider('https://heconode.ifoobar.com'))
 
@@ -138,6 +138,9 @@ export default class FilDaLoanInfo {
 
       this.provider = new ethers.providers.Web3Provider(this.web3.currentProvider)
     }
+    ethers.utils.Logger.setLogLevel(ethers.utils.Logger.levels.ERROR)
   }
 
 }
+
+export = FilDaLoanInfo

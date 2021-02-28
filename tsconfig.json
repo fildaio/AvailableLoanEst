@@ -1,13 +1,15 @@
 {
-  "allowSyntheticDefaultImports": true,
   "compilerOptions": {
     "allowJs": true,
-    "target": "es2015",
-    "module": "commonjs",
+    "target": "ES2018",
+    "module": "CommonJS",
     "strict": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "declaration": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "outDir": "build"
-  }
+  },
+  "exclude": ["node_modules"]
 }
